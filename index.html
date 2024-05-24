@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/titleIcon.png">
+    <title>Zin Min : Full-Stack Developer</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- OwlCarousel CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header design-->
+    <header class="header">
+        <a href="#home" class="logo active">Dev. <span>Zin Min</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <!-- <a href="#home" class="active">Home</a> -->
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#resume">Resume</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Dev. Zin Min</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>“YOU CAN’T USE UP CREATIVITY. THE MORE YOU USE, THE MORE YOU HAVE .”</p>
+            <div class="social-media">
+                <!-- <a href="#"><i class='bx bxl-facebook' ></i></a> -->
+                <a href="https://github.com/zmin404" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/z-m-o" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="mailto:zmin9720@gmail.com" target="_blank"><i class='bx bxl-gmail' ></i></a>
+            </div>
+            <a href="cv/Zin-Min-Oo_Full-Stack.pdf" download class="btn">Download CV</a>
+        </div>
+
+        <!-- <div class="home-img">
+            <img src="images/blob.svg" alt="">
+        </div> -->
+        <div class="home__image">
+            <svg class="home__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                <mask id="maskBlob" mask-type="alpha">
+                   <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                   170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                   447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                   587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                   438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                </mask>
+                <g mask="url(#maskBlob)">
+                   <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                   170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                   447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                   587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                   438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+ 
+                   <rect x="37" width="476" height="630" fill="url(#pattern0)"/>
+                </g>
+ 
+                <rect x="37" width="476" height="300" fill="url(#pattern1)"/>
+ 
+                <defs>
+                   <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                      <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+                   </pattern>
+ 
+                   <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                      <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+                   </pattern>
+ 
+                   <!-- Insert your profile (recommended size: 640 x 940) -->
+                   <image class="home__img" id="imageBlob" width="640" height="925" href="images/cv.png"/>
+                </defs>
+             </svg>
+        </div>
+
+        <div class="night">
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+            <div class="shooting_star"></div>
+        </div>
+
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <!-- <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div> -->
+        <div class="about__image">
+            <svg class="about__blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="maskBorder" mask-type="alpha">
+                   <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                   171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                   448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                   270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                   439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black"/>
+                </mask>
+                <g mask="url(#maskBorder)">
+                   <rect x="37" width="476" height="630" fill="url(#pattern2)"/>
+                   
+                   <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                   192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                   580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                   40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                   175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black" stroke-width="10"/>
+                </g>
+             
+                <rect x="37" width="476" height="300" fill="url(#pattern3)"/>
+             
+                <defs>
+                   <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                      <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+                   </pattern>
+             
+                   <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                      <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+                   </pattern>
+             
+                   <!-- Insert your profile (recommended size: 640 x 940) -->
+                   <image class="about__img" id="imageBorder" width="640" height="940" href="images/cv.png"/>
+                </defs>
+             </svg>
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full-Stack Developer!</h3>
+            <p>I'm a Full-Stack developer, working in web development industry for over <span>5 years</span> . I'm dedicated to developing & optimizing interactive, user-friendly, and feature rich websites and applications. I'm also proficient in troubleshooting
+                complex issues, and implementing new features. If you are a business seeking a web presence or an employer looking to hire, feel free to get in touch.</p>
+
+            <!--Career Div  -->
+            <div class="career-container">
+                <div class="career-box">
+                    <h4 class=" fs-1 fw-bold num" data-val="52">0+</h4>
+                    <p class=" text-muted">Projects Completed</p>
+                </div>
+
+                <div class="career-box">
+                    <h4 class=" fs-1 fw-bold num" data-val="48">0+</h4>
+                    <p class=" text-muted">Happy Clients</p>
+                </div>
+
+                <div class="career-box">
+                    <h4 class=" fs-1 fw-bold num" data-val="42">0+</h4>
+                    <p class=" text-muted">Positive Reviews</p>
+                </div>
+            </div>
+
+            <!-- End Projects Number Div -->
+
+            <a href="cv/Zin-Min-Oo_Full-Stack.pdf" download class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">Ski<span>lls</span></h2>
+        <img id="bucket" src="images/bucket.png" alt="">
+        <div class="skills-container">
+            <div class="skills-box">
+                <h2>HTML, CSS and Bootstrap</h2>
+                <div class="progress-bar">
+                    <div class="html" data-progress="90"><span>90%</span></div>
+                </div>
+                <h2>JavaScript, JQuery, REACT and Vue.js</h2>
+                <div class="progress-bar">
+                    <div class="js" data-progress="85"><span>85%</span></div>
+                </div>
+                <h2>PHP and Laravel</h2>
+                <div class="progress-bar">
+                    <div class="php" data-progress="90"><span>90%</span></div>
+                </div>
+                <h2>.NET Framework and .NET Core</h2>
+                <div class="progress-bar">
+                    <div class="dotNet" data-progress="88"><span>88%</span></div>
+                </div>
+                <h2>C#, ASP.NET and MVC</h2>
+                <div class="progress-bar">
+                    <div class="mvc" data-progress="90"><span>90%</span></div>
+                </div>
+                <h2>SQL Server, MySQL and Entity Framework</h2>
+                <div class="progress-bar">
+                    <div class="sql" data-progress="85"><span>85%</span></div>
+                </div>
+                <h2>Wordpress, nopCommerce and CMS</h2>
+                <div class="progress-bar">
+                    <div class="wordpress" data-progress="90"><span>90%</span></div>
+                </div>
+            </div>
+
+            <div class="skills-box" id="skills-box2">
+                <h2>WCF services and Web Services</h2>
+                <div class="progress-bar">
+                    <div class="wcf" data-progress="80"><span>80%</span></div>
+                </div>
+                <h2>REST APIs</h2>
+                <div class="progress-bar">
+                    <div class="api" data-progress="90"><span>90%</span></div>
+                </div>
+                <h2>IIS</h2>
+                <div class="progress-bar">
+                    <div class="iis" data-progress="90"><span>90%</span></div>
+                </div>
+                <h2>Flutter</h2>
+                <div class="progress-bar">
+                    <div class="flutter" data-progress="80"><span>80%</span></div>
+                </div>
+                <h2>Git</h2>
+                <div class="progress-bar">
+                    <div class="git" data-progress="90"><span>90%</span></div>
+                </div>
+                <h2>Agile and Scrum methodologies</h2>
+                <div class="progress-bar">
+                    <div class="agile" data-progress="85"><span>85%</span></div>
+                </div>
+            </div>
+
+        </div>
+        <img id="spiral" src="images/spiral.png" alt="">
+    </section>
+    <!-- services section design -->
+    <section class="services" id="services">
+        <img id="bulb" src="images/bulb.png" alt="">
+        <h3 class="h3Services">Services</h3>
+        <h2 class="heading" id="heading">I Provide <span>Awesome Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Web Design</h3>
+                <p>Focus on what is important to your company and develop according to your business objectives. Research on consumer behaviour first before finalising design and other crucial aspects so that your website speaks to the right people.
+                </p>
+                <h4>60+ Projects</h4>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Offer dynamic web design by incorporating the most up-to-date technology available. Now with responsive web technology, my designs will work beautifully on desktops, mobile phones and tablets.</p>
+                <h4>40+ Projects</h4>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Application Development</h3>
+                <p>I place strong emphasis on getting the creative and commercial aspects right in order to execute the project flawlessly from imagination to reality.</p>
+                <h4>35+ Projects</h4>
+            </div>
+        </div>
+    </section>
+
+    <!--   Resume Section Starts   -->
+    <section class="resume" id="resume">
+        <h2 class="heading">Re<span>sume</span></h2>
+
+        <!--   === Resume Row Starts ===   -->
+        <div class="resume-row">
+
+            <!--   === Left Column Starts ===   -->
+            <div class="column column-left">
+                <header class="sub-heading">
+                    <h2><span>EDUCATION</span></h2>
+                </header>
+
+                <main class="resume-contents">
+                    <div class="box">
+                        <h4>2019 - 2020</h4>
+                        <h3>Bachelor of Science (Hons) Information Technology</h3>
+                        <p>Teeside University (UK)</p>
+                        <ul>
+                            <li>Study in Singapore with MDIS (Management Development Institute of Singapore)</li>
+                            <li>Degree Classification : <span style="font-weight:bold">First Class Honours</span></li>
+                        </ul>
+                        <h5 class="vanue">Singapore, Singapore</h5>
+                    </div>
+
+                    <div class="box">
+                        <h4>2012 - 2017</h4>
+                        <h3>Pearson BTEC Level 5 HND Diploma</h3>
+                        <p>iNet IT ACADEMY</p>
+                        <h5 class="vanue">Mandalay, Myanmar</h5>
+                    </div>
+
+
+                </main>
+            </div>
+            <!--   === Left Column Ends ===   -->
+
+            <!--   === Right Column Starts ===   -->
+            <div class="column column-right">
+                <header class="sub-heading">
+                    <h2><span>EXPERIENCE</span></h2>
+                </header>
+
+                <main class="resume-contents">
+                    <div class="box">
+                        <h4>2020- Present</h4>
+                        <h3>Full Stack Developer <span style="font-weight:bold; font-size: 15px;">(Promoted to Project Leader)</span></h3>
+                        <ul>
+                            <li>Developed and maintained web applications using ASP.NET, MVC, C#.</li>
+                            <li>Implemented front-end features using HTML, CSS, and JavaScript, along with Bootstrap.</li>
+                            <li>Designed and implemented relational databases using SQL Server and Entity Framework, as well as worked with MySQL.</li>
+                            <li>Mentored junior developers, providing guidance, support, and technical expertise to foster their growth and development.</li>
+                            <li>Promoted to Project Leader, where I successfully managed the operation and implementation of Restaurant Web Application,
+                            overseeing team efforts to ensure seamless functionality, efficient workflow, and client satisfaction.</li>
+                            <li>Collaborated with cross-functional teams to gather requirements and delivered high-quality solutions.</li>
+                            <li>Participated in code reviews, debugging, and testing to ensure the delivery of high-quality code.</li>
+                            <li>Worked with Git for version control and code management.</li>
+                            <li>Deployed applications on IIS and used CMS systems like Wordpress and nopCommerce.</li>
+                            <li>Worked with Flutter to develop mobile applications.</li>
+                            <li>Developed WCF services and web services to integrate with other applications.</li>
+                            <li>Developed and consumed REST APIs to connect with other applications and services.</li>
+                        </ul>
+
+                        <h5 class="vanue">Asia Brightway IT Co., Ltd</h5>
+                    </div>
+
+                    <div class="box">
+                        <h4>2017- 2020</h4>
+                        <h3>Freelance Developer</h3>
+                        <ul>
+                            <li>Developed custom web applications, websites, or software solutions for clients, utilizing to meet project requirements
+                            and exceed client expectations.</li>
+                            <li>Managed all aspects of project lifecycle, including requirements gathering, design, development, testing, deployment,
+                            and maintenance, ensuring timely delivery and client satisfaction.</li>
+                            <li>Collaborated closely with clients to understand their needs, provide regular updates, and incorporate feedback,
+                            fostering strong client relationships and repeat business.</li>
+                            <li>Demonstrated strong problem-solving skills and attention to detail in resolving technical challenges and optimizing
+                            performance of delivered solutions.</li>
+                            <li>Developed and maintained visually appealing and user-friendly websites using HTML, CSS, and JavaScript.</li>
+                            <li>Customized and extended CMS platforms such as WordPress to meet client requirements.</li>
+                            <li>Collaborated closely with clients, designers, and other stakeholders to gather project requirements and ensure alignment with client expectations.</li>
+                            <li>Managed multiple projects simultaneously, adhering to deadlines and delivering high-quality solutions within budget.</li>
+                            <li>Conducted comprehensive testing and debugging to ensure optimal performance and functionality of websites and web applications.</li>
+                        </ul>
+                        <h5 class="vanue">Freelance</h5>
+                    </div>
+
+                    <div class="box">
+                        <h4>Feb 2016 - Oct 2016</h4>
+                        <h3>Network Engineer</h3>
+                        <ul>
+                            <li>LAN-WAN</li>
+                            <li>Router Configuration</li>
+                            <li>Cable Management</li>
+                        </ul>
+                        <h5 class="vanue">MyanmarNet</h5>
+                    </div>
+                </main>
+            </div>
+            <!--   === Right Column Ends ===   -->
+
+        </div>
+        <!--   === Resume Row Ends ===   -->
+
+
+    </section>
+    <!--  Resume Section Ends -->
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>E-commerce Website / iOS and Android App</h4>
+                    <p>Mandalay Trade</p>
+                    <a href="https://www.mandalaytrade.com/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio2.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Website</h4>
+                    <p>PAHG Holding Company</p>
+                    <a href="http://www.pahggroup.com/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio3.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>E-commerce Website</h4>
+                    <p>Myanmar Local Made</p>
+                    <a href="http://www.myanmarlocalmade.com/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio4.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Website</h4>
+                    <p>Asia Brightway IT Company</p>
+                    <a href="http://asiabrightway.com/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio5.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Website</h4>
+                    <p>Mandalay Myotha Industrial Development</p>
+                    <a href="http://www.mmidproject.com/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio6.JPG" alt="">
+                <div class="portfolio-layer">
+                    <h4>Website</h4>
+                    <p>Asia Speed Construction Company</p>
+                    <a href="http://asiaspeedconstruction.com/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--   *** Testimonials Section Starts ***   -->
+    <section class="testimonials" id="testimonials">
+        <h3 class="h3Testimonials">Testimonials</h3>
+        <h2 class="heading" id="heading">What <span>People Say</span></h2>
+
+        <!--   === Owl Carousel Slider Container Starts ===   -->
+        <div class="owl-carousel owl-theme testimonials-container">
+
+            <!--   === Card1 Starts ===   -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class='bx bxs-quote-alt-left'></i>
+                    </div>
+                    <p>Zin Min is an awesome developer. He is highly skilled and very professional. He responds to messages quickly and comes up with great solutions. I enjoyed working with him and I would be very happy to work with him again.</p>
+                    <div class="ratings">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/profile1.png">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Ms. Mi Mi Lwin</span>
+                    </div>
+                </div>
+            </div>
+            <!--   === Card1 Ends ===   -->
+
+            <!--   === Card2 Starts ===   -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class='bx bxs-quote-alt-left'></i>
+                    </div>
+                    <p>Zin Min is a great developer. I can say he is one of the best seller amongst the freelancers have worked with on here. He is capable, supportive, honest, patient and hard working developer. He explained his process, worked diligently,
+                        provided various solutions, and completed work efficiently.</p>
+                    <div class="ratings">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/profile2.png">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Ms. Mo Ni Kyaw</span>
+                    </div>
+                </div>
+            </div>
+            <!--   === Card2 Ends ===   -->
+
+            <!--   === Card3 Starts ===   -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class='bx bxs-quote-alt-left'></i>
+                    </div>
+                    <p>Zin Min is one of the best developers I have found on Upwork. Techy guy with strong knowledge of all technologies and frameworks. His communication was top-notch, he met all deadlines, and his skills were reasonably strong. </p>
+                    <div class="ratings">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/profile3.png">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Ms. Aye Thet Oo</span>
+                    </div>
+                </div>
+            </div>
+            <!--   === Card3 Ends ===   -->
+
+            <!--   === Card4 Starts ===   -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class='bx bxs-quote-alt-left'></i>
+                    </div>
+                    <p>Freelancer did beautiful design work. quickly, accurately and with great quality code. It was a pleasure working with him. I highly recommend him and hope to work with him again soon! Thank you for your awesome contributions to our
+                        team!
+                    </p>
+                    <div class="ratings">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/profile4.png">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Mr. Kyaw Kyaw Myo</span>
+                    </div>
+                </div>
+            </div>
+            <!--   === Card4 Ends ===   -->
+
+            <!--   === Card5 Starts ===   -->
+            <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class='bx bxs-quote-alt-left'></i>
+                    </div>
+                    <p>We engaged Zin Min as a consultant to review and critique the design of our website and marketing materials. He has been an excellent source of constructive feedback, and has helped us immensely to communicate our vision with visually
+                        compelling materials. </p>
+                    <div class="ratings">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/profile5.jpg">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Mr. Aye Maung Maung Htwe</span>
+                    </div>
+                </div>
+            </div>
+            <!--   === Card5 Ends ===   -->
+
+            <!--   === Card6 Starts ===   -->
+            <!-- <div class="item testimonial-card">
+                <main class="test-card-body">
+                    <div class="quote">
+                        <i class='bx bxs-quote-alt-left'></i>
+                    </div>
+                    <p>We hired Zin Min to rework the content and design of our website. He has been terrific- collaborative, diligent, honest and professional, offering solutions we had not thought about. We have found that he delivers efficiently and in
+                        a timely manner.</p>
+                    <div class="ratings">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                    </div>
+                </main>
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="images/profile6.jpg">
+                    </div>
+                    <div class="profile-desc">
+                        <span>Etimad Khan</span>
+                    </div>
+                </div>
+            </div> -->
+            <!--   === Card6 Ends ===   -->
+
+        </div>
+        <!--   === Owl Carousel Slider Container Ends ===   -->
+
+    </section>
+    <!--   *** Testimonials Section Ends ***   -->
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <img id="send" src="images/send.png" alt="">
+        <h3 class="contactMe">Contact <span>Me!</span></h3>
+        <h2 class="heading">Let’s <span>Build </span>Something <span>Together</span></h2>
+        <h3 class="exp">More than <span>5 years</span> in the game and just getting started.</h3>
+
+        <form action="#" id="form" method="GET">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required="" id="fullName">
+                <input type="email" placeholder="Email Address" required="" id="email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number" required="" id="phoneNumber">
+                <input type="text" placeholder="Subject" required="" id="subject">
+            </div>
+            <textarea name="" cols="30" rows="10" placeholder="Your Message" required="" id="message"></textarea>
+            <button type="submit" class="btn" id="sendBtn">Send Message</button>
+
+        </form>
+        <img id="send1" src="images/send1.png" alt="">
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by <span>Dev. Zin Min</span> | All Rights Reserved.</p>
+        </div>
+
+        <!-- <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div> -->
+    </footer>
+    <a href="#home" class="gotopbtn" id="gotopbtn"><i class='bx bx-up-arrow-alt' ></i></a>
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNZ4Q9YTKM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NNZ4Q9YTKM');
+    </script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!--  Link To JQuery   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!--  Link To OwlCarousel Js   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Sweetalert Js -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- Emailjs Js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("MnmMckvx8B2kZgjPA");
+        })();
+    </script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
